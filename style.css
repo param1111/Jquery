@@ -1,0 +1,12 @@
+body{
+	background-color: #e3e2dd;
+}
+.h1{
+	font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 60px;
+    text-align: center;    
+}
+label{
+	font-family: 'Arima Madurai', cursive;
+	font-size: 25px;
+}

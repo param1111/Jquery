@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Search Movies,Titles and more..</title>
+	<link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Open+Sans+Condensed:300" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<h1 class="h1">Search Movie</h1>
+	</div>
+	<div class="body container">
+		<form>
+			<div class="form-group">
+				<label for="inputMovie">Name Of The Movie</label>
+				<input class="form-control searchMovie" type="text" id="inputName" placeholder="Search Movie">
+				<input class="btn btn-primary pull-right" id="search" type="button" value="submit">		
+			</div>			
+		</form>
+		 <div class="table-section table-group">
+           <table class="table" id="dataTable" align="center">
+               <tr class="headings"><!-- <tr>Table Row -->
+                   <td>Poster</td>
+                   <!--<td>Table Description</td>-->
+                   <td>Title</td>
+                   <td>Year</td>
+                   <td>imdbID</td>
+                   <td>Type</td>
+               </tr>
+           </table>
+       </div>		
+	</div>
+	 <script>
+           window.jQuery || document.write('<script src="jquery-3.1.0.js"><\/script>')
+       </script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="script.js"></script>	
+</body>
+</html>
